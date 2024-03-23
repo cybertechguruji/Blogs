@@ -1,0 +1,13 @@
+git init 			-- initialize git
+
+git status 			-- to check status of commit
+
+git remote add origin https://github.com/cybertechguruji/Blogs.git -- to connect with this github repo
+
+git add 			-- to add files to commit
+
+git commit -m "your comment" 	-- to commit the files
+
+git branch -M master 		-- to choose the branch (Master)
+
+git push -u origin master	-- to push commit to github

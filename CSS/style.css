@@ -1,0 +1,16 @@
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(102%);
+    box-shadow: 2px 2px black;
+}
+.card-img-top{
+    max-width: 250px;
+    border-radius: 10px;
+}
