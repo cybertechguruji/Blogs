@@ -1,9 +1,7 @@
-.col{
+.card{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.card{
     border-radius: 10px;
 }
 .card:hover{
