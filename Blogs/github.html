@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="/blogs/CSS/blogs.css">
+    <link rel="stylesheet" href="/CSS/blogs.css">
     <title>Home</title>
   </head>
   <body style="font-family: 'Ubuntu', sans-serif; background-color: #ffe5b4;" >
@@ -47,7 +48,7 @@
         <div class="box">
           <img class="illustration" src="/blogs/images/github-illustration.png" alt="" style="border-radius: 10px;">
           <div class="box-child">
-            <h3>Git</h3>
+            <h3><strong>Git</strong></h3>
             <h4>What is Git?</h4>
             <p>Git is a version control system (VCS). It tracks changes in a set of files over time, allowing you to revert to previous versions if needed. Imagine it as a time machine for your code.</p>
             <h4>How Git works?</h4>
@@ -65,7 +66,7 @@
             </ul>
           </div>
           <div class="box-child">
-            <h3>GitHub</h3>
+            <h3><strong>GitHub</strong></h3>
             <h4>What is GitHub?</h4>
             <p>GitHub is a web-based platform that utilizes Git for version control. It provides a user-friendly interface for managing your Git repositories and collaborating with others.</p>
             <h4>How GitHub works?</h4>
@@ -83,7 +84,7 @@
             </ul>
           </div>
           <div class="box-child">
-          <h3>Difference between git and github</h3>
+          <h3><strong>Difference between git and github</strong></h3>
           <table>
             <thead>
               <tr>
@@ -125,6 +126,35 @@
               </tr>
             </tbody>
           </table>
+          </div>
+          <div class="box-child">
+            <h3><strong>Commonly Used Git Commands</strong></h3>
+            <h4>Initializing and Setting Up</h4>
+            <p><code>git init</code>: Creates a new Git repository in your current directory.</p>
+        
+            <h4>Tracking Changes</h4>
+            <p><code>git status</code>: Shows the current status of your working directory and staging area.</p>
+            <p><code>git add &lt;file&gt;</code>: Adds a specific file to the staging area, which tells Git to include those changes in the next commit.</p>
+            <p><code>git add -A</code>: Adds all new and modified files to the staging area.</p>
+        
+            <h4>Committing Changes</h4>
+            <p><code>git commit -m "&lt;message&gt;"</code>: Creates a snapshot of the changes in the staging area, along with a commit message describing the changes.</p>
+        
+            <h4>Branching and Merging</h4>
+            <p><code>git branch &lt;branch_name&gt;</code>: Creates a new branch.</p>
+            <p><code>git checkout &lt;branch_name&gt;</code>: Switches to a different branch.</p>
+            <p><code>git merge &lt;branch_name&gt;</code>: Merges changes from another branch into the current branch.</p>
+        
+            <h4>Remote Repositories (assuming GitHub is your remote)</h4>
+            <p><code>git remote add origin &lt;url&gt;</code>: Adds a remote repository (e.g., your GitHub repository) to your local repository.</p>
+            <p><code>git pull origin &lt;branch_name&gt;</code>: Downloads changes from the remote repository's specified branch and merges them into your local branch.</p>
+            <p><code>git push origin &lt;branch_name&gt;</code>: Uploads your local commits to the remote repository's specified branch.</p>
+        
+            <h4>Additional Useful Commands</h4>
+            <p><code>git log</code>: Shows the history of commits in your repository.</p>
+            <p><code>git diff</code>: Shows the difference between your working directory and the staging area, or between different commits.</p>
+            <p><code>git clone &lt;url&gt;</code>: Creates a local copy of a remote repository.</p>
+        
           </div>
         </div>
 
