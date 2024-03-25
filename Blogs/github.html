@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="CSS/blogs.css">
+    <link rel="stylesheet" href="/CSS/blogs.css">
     <title>Home</title>
   </head>
   <body style="font-family: 'Ubuntu', sans-serif; background-color: #ffe5b4;" >
@@ -45,13 +45,88 @@
     <h1 style="font: bold 2.5rem sans-serif; text-align: center; margin: 20px">Git & Github</h1>
     <!-- Main Content Start -->
         <div class="box">
-          <img src="" alt="">
+          <img class="illustration" src="/images/github-illustration.png" alt="" style="border-radius: 10px;">
           <div class="box-child">
-            <h1>What is Git?</h1>
-            <p></p>
+            <h3>Git</h3>
+            <h4>What is Git?</h4>
+            <p>Git is a version control system (VCS). It tracks changes in a set of files over time, allowing you to revert to previous versions if needed. Imagine it as a time machine for your code.</p>
+            <h4>How Git works?</h4>
+            <p>Git creates a local repository on your computer. This repository stores snapshots of your files at different points in time, called commits. Each commit includes the changes made, the author, and a message describing the changes. You can also create branches to work on different features of your code without affecting the main codebase.</p>
+            <h4>Benefits of Git:</h4>
+            <ul>
+              <li><strong>Tracks history:</strong> See how your code evolved over time and revert to previous versions if necessary.</li>
+              <li><strong>Collaboration:</strong> Enables multiple developers to work on the same codebase simultaneously.</li>
+              <li><strong>Offline work:</strong> Make changes to your code even without an internet connection.</li>
+            </ul>
+            <h4>Limitations of Git:</h4>
+            <ul>
+              <li><strong>Command line:</strong> Primarily uses commands, which can be intimidating for beginners.</li>
+              <li><strong>Local storage:</strong> The local repository resides on your machine, requiring backups to prevent data loss.</li>
+            </ul>
+          </div>
+          <div class="box-child">
+            <h3>GitHub</h3>
+            <h4>What is GitHub?</h4>
+            <p>GitHub is a web-based platform that utilizes Git for version control. It provides a user-friendly interface for managing your Git repositories and collaborating with others.</p>
+            <h4>How GitHub works?</h4>
+            <p>Think of GitHub as a storage facility for your Git repositories. You can push your local repository to GitHub to create a remote copy. This allows you to access your code from anywhere and collaborate with others. GitHub also offers features like issue tracking, pull requests, and code review, which streamline the development process.</p>
+            <h4>Benefits of GitHub:</h4>
+            <ul>
+              <li><strong>Cloud storage:</strong> Securely stores your codebase in the cloud, accessible from any device.</li>
+              <li><strong>Collaboration:</strong> Enables developers to work together on projects, track issues, and review code.</li>
+              <li><strong>Version control:</strong> Provides all the functionalities of Git for version control.</li>
+              <li><strong>Open source:</strong> GitHub fosters open-source development, allowing public projects to be shared and contributed to by the community.</li>
+            </ul>
+            <h4>Limitations of GitHub:</h4>
+            <ul>
+              <li><strong>Pricing:</strong> While GitHub offers free plans with basic features, some functionalities require paid subscriptions for private repositories or additional storage.</li>
+            </ul>
+          </div>
+          <div class="box-child">
+          <h3>Difference between git and github</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Git</th>
+                <th>GitHub</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Type</td>
+                <td>Version control system (VCS)</td>
+                <td>Web-based Git hosting service</td>
+              </tr>
+              <tr>
+                <td>Functionality</td>
+                <td>Tracks changes, versioning, reverting</td>
+                <td>Stores & manages Git repositories, collaboration</td>
+              </tr>
+              <tr>
+                <td>Interface</td>
+                <td>Command-line</td>
+                <td>Graphical User Interface (GUI) or command-line</td>
+              </tr>
+              <tr>
+                <td>Location</td>
+                <td>Installed locally</td>
+                <td>Cloud-based</td>
+              </tr>
+              <tr>
+                <td>Collaboration</td>
+                <td>Limited, suitable for small teams</td>
+                <td>Built-in features for teams & open-source projects</td>
+              </tr>
+              <tr>
+                <td>Pricing</td>
+                <td>Free and open-source</td>
+                <td>Free tier with paid plans for additional features</td>
+              </tr>
+            </tbody>
+          </table>
           </div>
         </div>
-
 
 
         
